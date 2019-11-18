@@ -7,10 +7,11 @@ Note: bootstrap original classes are separated with "-" while my own
 classes are separated with "_" for differentiation
 */
 
-$light: #f4f5f6;
+$light: #eee;
 $white: #fff;
 
-body, .jumbotron-fluid {
+
+body {
   background-color: $light;
 }
 
@@ -36,14 +37,39 @@ a.no_deco {
 =========================================================================
 */
 
+.navbar {
+  .navbar-brand {
+    img {
+      height: 2.5rem;
+    }
+  }
 
-@media screen and (min-width: 768px) {
+  .fa,
+  .far {
+    font-size: 1.5rem;
+  }
 
+  .fas {
+    font-size: 1rem;
+  }
+
+  .location {
+    font-size: 0.9rem;
+  }
+
+  .icons {
+    .fa-user-circle {
+      font-size: 1.5rem;
+    }
+
+  }
 }
 
-
 @media screen and (min-width: 1024px) {
-
+  .shadow-lg-small {
+    -webkit-box-shadow: -3px 3px 22px -5px rgba(0,0,0,0.75);
+    box-shadow: -3px 3px 22px -5px rgba(200,200,200,0.75);
+  }
 }
 
 
