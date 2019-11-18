@@ -1,0 +1,60 @@
+/*
+Error: File to import not found or unreadable: ../bootstrap-files/scss/bootstrap.
+       Load path: /home/kitpao/Documents/Microverse/CSS&HTML/capstone_project/css/scss
+        on line 11 of /home/kitpao/Documents/Microverse/CSS&HTML/capstone_project/css/scss/custom-bootstrap.scss
+        from line 1 of /home/kitpao/Documents/Microverse/CSS&HTML/capstone_project/css/scss/main.scss
+
+Backtrace:
+/home/kitpao/Documents/Microverse/CSS&HTML/capstone_project/css/scss/custom-bootstrap.scss:11
+/home/kitpao/Documents/Microverse/CSS&HTML/capstone_project/css/scss/main.scss:1
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:67:in `rescue in import'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:44:in `import'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:28:in `imported_file'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:37:in `css_import?'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:314:in `visit_import'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:329:in `block (2 levels) in visit_import'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:329:in `map'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:329:in `block in visit_import'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:88:in `block in with_import'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:88:in `with_import'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+/usr/share/koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+/usr/share/koala/bin/sass:22:in `load'
+/usr/share/koala/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: ../bootstrap-files/scss/bootstrap.\A        Load path: /home/kitpao/Documents/Microverse/CSS&HTML/capstone_project/css/scss\A         on line 11 of /home/kitpao/Documents/Microverse/CSS&HTML/capstone_project/css/scss/custom-bootstrap.scss\A         from line 1 of /home/kitpao/Documents/Microverse/CSS&HTML/capstone_project/css/scss/main.scss"; }
