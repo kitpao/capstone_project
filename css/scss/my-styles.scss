@@ -10,7 +10,6 @@ classes are separated with "_" for differentiation
 $light: #eee;
 $white: #fff;
 
-
 body {
   background-color: $light;
 }
@@ -61,25 +60,20 @@ a.no_deco {
     .fa-user-circle {
       font-size: 1.5rem;
     }
-
   }
 }
 
 @media screen and (min-width: 1024px) {
   .shadow-lg-small {
-    -webkit-box-shadow: -3px 3px 22px -5px rgba(0,0,0,0.75);
-    box-shadow: -3px 3px 22px -5px rgba(200,200,200,0.75);
+    box-shadow: -3px 3px 22px -5px rgba(200, 200, 200, 0.75);
   }
 }
-
-
 
 /*
 =========================================================================
                                     Main Section
 =========================================================================
 */
-
 
 /*
 =========================================================================
