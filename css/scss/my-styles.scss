@@ -11,7 +11,7 @@ $light: #f9f9f9;
 $white: #fff;
 
 body {
-  background: linear-gradient(to bottom, $white 20%, #ddd);
+  background: linear-gradient(to bottom, $white 20%, $light);
 }
 
 .all_height {
@@ -95,16 +95,29 @@ body {
   }
 }
 
+.footer {
+  height: 3.2rem;
+
+  .fas,
+  .far {
+    font-size: 1.5rem;
+  }
+
+  button {
+    .fas {
+      font-size: 2rem;
+    }
+  }
+}
+
 /*
 =========================================================================
                                     Main Section
 =========================================================================
 */
 
-@media screen and (min-width: 1024px) {
-  .main {
-    flex: 2;
-  }
+.main {
+  flex: 2;
 }
 
 @media screen and (min-width: 1400px) {

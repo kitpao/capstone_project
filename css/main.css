@@ -450,10 +450,10 @@ pre {
   margin-left: auto; }
   @media (min-width: 576px) {
     .container {
-      max-width: 540px; } }
+      max-width: 576px; } }
   @media (min-width: 768px) {
     .container {
-      max-width: 720px; } }
+      max-width: 768px; } }
   @media (min-width: 1024px) {
     .container {
       max-width: 1024px; } }
@@ -7599,7 +7599,7 @@ Note: bootstrap original classes are separated with "-" while my own
 classes are separated with "_" for differentiation
 */
 body {
-  background: linear-gradient(to bottom, #fff 20%, #ddd); }
+  background: linear-gradient(to bottom, #fff 20%, #f9f9f9); }
 
 .all_height {
   height: 100%; }
@@ -7651,14 +7651,22 @@ body {
 .down_profile button {
   flex-grow: 1; }
 
+.footer {
+  height: 3.2rem; }
+  .footer .fas,
+  .footer .far {
+    font-size: 1.5rem; }
+  .footer button .fas {
+    font-size: 2rem; }
+
 /*
 =========================================================================
                                     Main Section
 =========================================================================
 */
-@media screen and (min-width: 1024px) {
-  .main {
-    flex: 2; } }
+.main {
+  flex: 2; }
+
 @media screen and (min-width: 1400px) {
   .main {
     flex: 3; } }
