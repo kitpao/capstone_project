@@ -7,11 +7,11 @@ Note: bootstrap original classes are separated with "-" while my own
 classes are separated with "_" for differentiation
 */
 
-$light: #eee;
+$light: #f9f9f9;
 $white: #fff;
 
 body {
-  background-color: $light;
+  background: linear-gradient(to bottom, $white 20%, #ddd);
 }
 
 .all_height {
@@ -26,8 +26,14 @@ body {
   border: blue 1px solid;
 }
 
-a.no_deco {
-  text-decoration: none;
+@media screen and (min-width: 1024px) {
+  body {
+    background: $light;
+  }
+
+  .shadow-lg-small {
+    box-shadow: -3px 3px 22px -5px rgba(200, 200, 200, 0.75);
+  }
 }
 
 /*
@@ -63,9 +69,29 @@ a.no_deco {
   }
 }
 
-@media screen and (min-width: 1024px) {
-  .shadow-lg-small {
-    box-shadow: -3px 3px 22px -5px rgba(200, 200, 200, 0.75);
+/*
+=========================================================================
+                                    Left Section
+=========================================================================
+*/
+
+.left {
+  flex: 1;
+}
+
+.over-container {
+  width: 1rem;
+  height: 1.4rem;
+
+  .fas {
+    top: 0.2rem;
+    left: 0;
+  }
+}
+
+.down_profile {
+  button {
+    flex-grow: 1;
   }
 }
 
@@ -75,11 +101,17 @@ a.no_deco {
 =========================================================================
 */
 
-/*
-=========================================================================
-                                    Left Section
-=========================================================================
-*/
+@media screen and (min-width: 1024px) {
+  .main {
+    flex: 2;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .main {
+    flex: 3;
+  }
+}
 
 /*
 =========================================================================
