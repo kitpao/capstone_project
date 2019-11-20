@@ -64,6 +64,11 @@ $white: #fff;
   flex: 1;
 }
 
+.flex_1_all {
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
 .bottom_hr_always {
   border-bottom: $light 3px solid;
 }
@@ -164,6 +169,71 @@ $white: #fff;
   height: calc(90vh - 100px);
 }
 
+.space_images {
+  flex-basis: 5.5rem;
+  flex-shrink: 0;
+}
+
+#carousel_id {
+  height: calc(100% - 5rem);
+}
+
+.carousel-indicators {
+  top: -5rem;
+
+  li:first-child {
+    margin: 0 0.7rem;
+    height: 3rem;
+    width: 4rem;
+    background: url("https://images.unsplash.com/photo-1543610892-0b1f7e6d8ac1?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60") center no-repeat;
+    background-size: cover;
+  }
+
+  li:nth-child(2) {
+    margin: 0 0.7rem;
+    height: 3rem;
+    width: 4rem;
+    background: url("https://images.unsplash.com/photo-1568441303064-f0a709a84e49?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60") center no-repeat;
+    background-size: cover;
+  }
+
+  li:nth-child(3) {
+    margin: 0 0.7rem;
+    height: 3rem;
+    width: 4rem;
+    background: url("https://images.unsplash.com/photo-1541647376583-8934aaf3448a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60") center no-repeat;
+    background-size: cover;
+  }
+
+  li:nth-child(4) {
+    margin: 0 0.7rem;
+    height: 3rem;
+    width: 4rem;
+    background: url("https://images.unsplash.com/photo-1559387780-2a9a4783f7db?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60") center no-repeat;
+    background-size: cover;
+  }
+}
+
+.carousel-caption {
+  position: absolute;
+  bottom: 1rem;
+}
+
+.carousel-item {
+  .fix_height {
+    object-fit: cover;
+    object-position:center center;
+  }
+}
+
+
+@media screen and (min-width: 1024px) {
+  .main {
+    flex: 3;
+    height: calc(90vh - 40px);
+  }
+}
+
 @media screen and (min-width: 1400px) {
   .main {
     flex: 3;
@@ -183,8 +253,8 @@ $white: #fff;
 .upper_card {
 
   .img_container {
-    height: 4rem;
-    width: 8rem;
+    height: 5rem;
+    width: 5rem;
   }
   img {
     object-fit: contain;

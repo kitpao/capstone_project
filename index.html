@@ -38,7 +38,7 @@
         </div>
       </nav>
     </header>
-    <div class="debug container-fluid px-4 px-lg-5 mt-2 py-4 d-flex">
+    <div class="container-fluid px-4 px-lg-5 mt-2 py-4 d-flex">
       <aside class="flex_1 d-none d-lg-flex flex-column mr-3">
         <div class="card border-0 d-none d-lg-block all_width shadow-lg-small">
           <div class="card-body d-flex flex-column">
@@ -121,9 +121,57 @@
           </div>
         </div>
       </aside>
-      <main class="main container-fluid debug d-flex px-0 pl-lg-3">
-        <div class="center debug">
-
+      <main class="main container-fluid d-flex px-0">
+        <div class="center ml-lg-2 mr-lg-4 d-flex flex-column justify-content-end">
+          <div class="d-flex flex-column justify-content-end all_height">
+            <div id="carousel_id" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators position-absolute">
+                <li data-target="#carousel_id" data-slide-to="0" class="active rounded">
+                </li>
+                <li data-target="#carousel_id" data-slide-to="1" class="rounded"></li>
+                <li data-target="#carousel_id" data-slide-to="2" class="rounded"></li>
+                <li data-target="#carousel_id" data-slide-to="3" class="rounded"></li>
+              </ol>
+              <div class="carousel-inner rounded-lg all_height">
+                <div class="carousel-item position-relative active all_height">
+                  <img src="https://images.unsplash.com/photo-1543610892-0b1f7e6d8ac1?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" class="fix_height w-100" alt="profile">
+                  <div class="carousel-caption d-flex justify-content-center">
+                    <button class="btn btn-primary btn-lg mx-2" type="button" name="button"><i class="fa fa-heart"></i></button>
+                    <button class="btn btn-secondary btn-lg mx-2" type="button" name="button"><i class="fa fa-times"></i></button>
+                  </div>
+                </div>
+                <div class="carousel-item position-relative all_height">
+                  <img src="https://images.unsplash.com/photo-1568441303064-f0a709a84e49?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-flex justify-content-center">
+                    <button class="btn btn-primary btn-lg mx-2" type="button" name="button"><i class="fa fa-heart"></i></button>
+                    <button class="btn btn-secondary btn-lg mx-2" type="button" name="button"><i class="fa fa-times"></i></button>
+                  </div>
+                </div>
+                <div class="carousel-item position-relative all_height">
+                  <img src="https://images.unsplash.com/photo-1541647376583-8934aaf3448a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-flex justify-content-center">
+                    <button class="btn btn-primary btn-lg mx-2" type="button" name="button"><i class="fa fa-heart"></i></button>
+                    <button class="btn btn-secondary btn-lg mx-2" type="button" name="button"><i class="fa fa-times"></i></button>
+                  </div>
+                </div>
+                <div class="carousel-item position-relative all_height">
+                  <img src="https://images.unsplash.com/photo-1559387780-2a9a4783f7db?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-flex justify-content-center">
+                    <button class="btn btn-primary btn-lg mx-2" type="button" name="button"><i class="fa fa-heart"></i></button>
+                    <button class="btn btn-secondary btn-lg mx-2" type="button" name="button"><i class="fa fa-times"></i></button>
+                  </div>
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carousel_id" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carousel_id" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
         </div>
         <div class="flex_1 d-none d-lg-flex flex-column">
           <div class="card d-none d-lg-block border-0 all_width shadow-lg-small">
@@ -144,7 +192,7 @@
               </div>
             </div>
           </div>
-          <div class="my-4 card d-none d-lg-block border-0 all_width shadow-lg-small">
+          <div class="my-3 card d-none d-lg-block border-0 all_width shadow-lg-small">
             <div class="card-body py-3 d-flex flex-column">
               <div class="upper_card d-flex align-items-center justify-content-between">
                 <h6 class="card-title mb-1 font-weight-bold text-info">Filter search</h6>
