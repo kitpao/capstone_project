@@ -7642,16 +7642,14 @@ classes are separated with "_" for differentiation
   flex-grow: 1;
   flex-shrink: 1; }
 
-.bottom_hr_always {
-  border-bottom: #f9f9f9 3px solid; }
-
 /*
 =========================================================================
                                     NAVBAR Section
 =========================================================================
 */
-.navbar .navbar-brand img {
+.navbar-brand img {
   height: 2.5rem; }
+
 .navbar .fa,
 .navbar .far {
   font-size: 1.5rem; }
@@ -7828,6 +7826,8 @@ classes are separated with "_" for differentiation
                                     Chat Details
 =========================================================================
 */
+.bottom_hr_always .bottom_hr_always {
+  border-bottom: #f9f9f9 3px solid; }
 .bottom_hr_always .fa-long-arrow-alt-left {
   font-size: 2rem; }
 .bottom_hr_always .fa-circle {
@@ -7835,19 +7835,18 @@ classes are separated with "_" for differentiation
 
 .chat_bubble {
   max-width: 70%; }
+  .chat_bubble .img_container {
+    height: 3rem;
+    width: 3rem;
+    flex-shrink: 0; }
+    .chat_bubble .img_container img {
+      object-fit: cover; }
 
 .chat_bubble_me {
   background-color: #e8e7ff; }
 
 .chat_bubble_you {
   background-color: #f3f3f3; }
-
-.img_container {
-  height: 3rem;
-  width: 3rem;
-  flex-shrink: 0; }
-  .img_container img {
-    object-fit: cover; }
 
 .main_internalchat {
   height: calc(90vh - 75px); }
