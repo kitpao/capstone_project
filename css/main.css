@@ -7598,8 +7598,13 @@ a.text-dark:hover, a.text-dark:focus {
 Note: bootstrap original classes are separated with "-" while my own
 classes are separated with "_" for differentiation
 */
-body {
+.body {
   background: linear-gradient(to bottom, #fff 20%, #f9f9f9);
+  height: 100vh;
+  font-family: 'Open Sans', sans-serif; }
+
+.body_chat {
+  background: #fcfcfc;
   height: 100vh;
   font-family: 'Open Sans', sans-serif; }
 
@@ -7619,7 +7624,7 @@ body {
   font-size: 0.4rem; }
 
 @media screen and (min-width: 1024px) {
-  body {
+  .body {
     background: #f9f9f9; }
 
   .shadow-lg-small {
@@ -7632,6 +7637,9 @@ body {
     border-top: #f9f9f9 3px solid; } }
 .flex_1 {
   flex: 1; }
+
+.bottom_hr_always {
+  border-bottom: #f9f9f9 3px solid; }
 
 /*
 =========================================================================
@@ -7739,5 +7747,37 @@ body {
   overflow-y: scroll; }
   .scroll a:focus {
     background-color: #4e50b8; }
+
+/*
+=========================================================================
+                                    Chat Details
+=========================================================================
+*/
+.bottom_hr_always .fa-long-arrow-alt-left {
+  font-size: 2rem; }
+.bottom_hr_always .fa-circle {
+  font-size: 0.4rem; }
+
+.chat_bubble {
+  max-width: 70%; }
+
+.chat_bubble_me {
+  background-color: #e8e7ff; }
+
+.chat_bubble_you {
+  background-color: #f3f3f3; }
+
+.img_container {
+  height: 3rem;
+  width: 3rem;
+  flex-shrink: 0; }
+  .img_container img {
+    object-fit: cover; }
+
+.main_internalchat {
+  height: calc(90vh - 75px); }
+
+.footer_chat {
+  height: 4.8rem; }
 
 /*# sourceMappingURL=main.css.map */
