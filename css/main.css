@@ -7600,7 +7600,8 @@ classes are separated with "_" for differentiation
 */
 body {
   background: linear-gradient(to bottom, #fff 20%, #f9f9f9);
-  height: 100vh; }
+  height: 100vh;
+  font-family: 'Open Sans', sans-serif; }
 
 .all_height {
   height: 100%; }
@@ -7611,12 +7612,21 @@ body {
 .debug {
   border: blue 1px solid; }
 
+.text_sm {
+  font-size: 0.8rem; }
+
+.text_xsm {
+  font-size: 0.4rem; }
+
 @media screen and (min-width: 1024px) {
   body {
     background: #f9f9f9; }
 
   .shadow-lg-small {
-    box-shadow: -3px 3px 22px -5px rgba(200, 200, 200, 0.75); } }
+    box-shadow: -3px 3px 22px -5px rgba(200, 200, 200, 0.75); }
+
+  .bottom_hr {
+    border-bottom: #f9f9f9 2px solid; } }
 /*
 =========================================================================
                                     NAVBAR Section
@@ -7654,6 +7664,8 @@ body {
   width: 4rem; }
 .upper_profile img {
   object-fit: cover; }
+.upper_profile .contain {
+  object-fit: contain; }
 
 .down_profile button {
   flex-grow: 1; }
@@ -7672,7 +7684,8 @@ body {
 =========================================================================
 */
 .main {
-  flex: 2; }
+  flex: 2;
+  height: calc(90vh - 100px); }
 
 @media screen and (min-width: 1400px) {
   .main {
@@ -7686,6 +7699,17 @@ body {
 =========================================================================
 */
 .right {
+  flex: 1; }
+
+.upper_card .img_container {
+  height: 4rem;
+  width: 8rem; }
+.upper_card img {
+  object-fit: contain; }
+.upper_card span {
+  line-height: 1rem; }
+
+.details {
   flex: 1; }
 
 /*# sourceMappingURL=main.css.map */

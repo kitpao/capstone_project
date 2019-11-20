@@ -7,6 +7,7 @@
     <title>Swipex: person detail page</title>
     <link rel="icon" href="images/icon.png">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
     <link rel="stylesheet" href="css/main.css">
   </head>
@@ -39,15 +40,15 @@
     </header>
     <div class="debug container-fluid px-4 px-lg-5 mt-2 py-4 d-flex">
       <aside class="left d-none d-lg-flex flex-column mr-3">
-        <div class="card all_width shadow-lg-small">
+        <div class="card border-0 d-none d-lg-block all_width shadow-lg-small">
           <div class="card-body d-flex flex-column">
             <div class="upper_profile d-flex align-items-center">
               <div class="img_container">
                 <img class="rounded all_width all_height" src="images/profile.jpg" alt="profile pic">
               </div>
               <div class="d-flex flex-column ml-3">
-                <h5 class="card-title mb-1">Vlad Ermakov</h5>
-                <span class="card-subtitle text-dark">Status: <a class="text-decoration-none border-bottom" href="#">Without premium</a> </span>
+                <h6 class="card-title mb-1 font-weight-bold text-info">Vlad Ermakov</h6>
+                <span class="card-subtitle text-dark text_sm">Status: <a class="text-decoration-none border-bottom" href="#">Without premium</a> </span>
               </div>
               <a class="ml-auto" href="#">
                 <i class="fas fa-cog"></i>
@@ -55,13 +56,13 @@
             </div>
             <div class="down_profile d-flex align-items-center mt-3">
               <i class="far fa-heart text-secondary mr-2"></i>
-              <span class="mr-2">257</span>
+              <span class="mr-2 text-info">257</span>
               <button class="btn btn-primary d-flex justify-content-center" type="button" name="button">
                 <span class="over-container position-relative all_width mr-2">
                   <i class="fas fa-certificate position-absolute"></i>
                   <i class="fas fa-check position-absolute text-primary"></i>
                 </span>
-                <span>Get Premium</span>
+                <span class="font-weight-bold text_sm">Get Premium</span>
               </button>
             </div>
           </div>
@@ -125,7 +126,74 @@
 
         </div>
         <div class="right d-none d-lg-flex flex-column">
-
+          <div class="card d-none d-lg-block border-0 all_width shadow-lg-small">
+            <div class="card-body d-flex flex-column">
+              <div class="upper_card d-flex align-items-center">
+                <div class="img_container">
+                  <img class="rounded all_width all_height" src="images/crown.png" alt="premium">
+                </div>
+                <div class="d-flex flex-column ml-3">
+                  <h6 class="card-title font-weight-bold text-info">Become the popular</h6>
+                  <span class="card-subtitle text-dark text_sm">Start receiving twice as many messages, likes and other things</span>
+                </div>
+              </div>
+              <div class="down_profile d-flex align-items-center mt-3">
+                <button class="btn btn-primary d-flex justify-content-center" type="button" name="button">
+                  <span class="font-weight-bold text_sm">Purchase package</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="my-4 card d-none d-lg-block border-0 all_width shadow-lg-small">
+            <div class="card-body py-3 d-flex flex-column">
+              <div class="upper_card d-flex align-items-center justify-content-between">
+                <h6 class="card-title mb-1 font-weight-bold text-info">Filter search</h6>
+                <i class="fas fa-sliders-h text-primary"></i>
+              </div>
+            </div>
+          </div>
+          <div class="details card border-0 all_width shadow-lg-small">
+            <div class="d-flex flex-lg-column flex-row">
+              <div class="card-body pb-2 bottom_hr">
+                <p class="text-dark text_sm mb-0">Name Surname, Old</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="text-info font-weight-bold">Karina Simons, 23</span>
+                  <i class="fa fa-circle text-success text_xsm"></i>
+                </div>
+              </div>
+              <div class="card-body pb-0 d-flex align-items-start justify-content-between">
+                <div>
+                  <p class="text-dark text_sm mb-0">Location</p>
+                  <p class="text-info"><span class="d-none d-lg-inline">Poland, </span>Warszawa</p>
+                </div>
+                <button class="d-none d-lg-block btn btn-primary py-2 px-3" type="button" name="button"><i class="text-light fas fa-map-marker-alt"></i></button>
+              </div>
+            </div>
+            <div class="card-body py-0">
+                <p class="text-dark text_sm mb-0">Interests</p>
+                <p class="text-info">Cinema, dinner with friends, shoes, makeup, shopping, walks on the beach.</p>
+            </div>
+            <div class="card-body py-0">
+                <p class="text-dark text_sm mb-0">Languages</p>
+                <p class="text-info">English (conversational), Polish (native).</p>
+            </div>
+            <div class="card-body d-none d-lg-flex flex-column pt-0 bottom_hr">
+              <button class="btn btn-light d-lg-flex justify-content-center" type="button" name="button">
+                <span class="font-weight-bold text_sm text-dark">View page Karina</span>
+              </button>
+            </div>
+            <a href="details.html" class="card-body d-flex flex-column">
+              <div class="upper_card d-flex align-items-center">
+                <div class="img_container">
+                  <img class="rounded all_width all_height" src="images/gift-white.png" alt="premium">
+                </div>
+                <div class="d-flex flex-column ml-3">
+                  <h6 class="card-title font-weight-bold text-info text_sm">Communicate with her.</h6>
+                  <span class="card-subtitle text-dark text_sm">Make a gift and you can inmediatly communicate.</span>
+                </div>
+              </div>
+            </a>
+          </div>
         </div>
       </main>
 

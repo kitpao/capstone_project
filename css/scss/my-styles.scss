@@ -13,6 +13,7 @@ $white: #fff;
 body {
   background: linear-gradient(to bottom, $white 20%, $light);
   height: 100vh;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .all_height {
@@ -27,6 +28,14 @@ body {
   border: blue 1px solid;
 }
 
+.text_sm {
+  font-size: 0.8rem;
+}
+
+.text_xsm {
+  font-size: 0.4rem;
+}
+
 @media screen and (min-width: 1024px) {
   body {
     background: $light;
@@ -34,6 +43,10 @@ body {
 
   .shadow-lg-small {
     box-shadow: -3px 3px 22px -5px rgba(200, 200, 200, 0.75);
+  }
+
+  .bottom_hr {
+    border-bottom: $light 2px solid;
   }
 }
 
@@ -99,6 +112,10 @@ body {
   img {
     object-fit: cover;
   }
+
+  .contain {
+    object-fit: contain;
+  }
 }
 
 .down_profile {
@@ -130,6 +147,7 @@ body {
 
 .main {
   flex: 2;
+  height: calc(90vh - 100px);
 }
 
 @media screen and (min-width: 1400px) {
@@ -149,5 +167,24 @@ body {
 */
 
 .right {
+  flex: 1;
+}
+
+.upper_card {
+
+  .img_container {
+    height: 4rem;
+    width: 8rem;
+  }
+  img {
+    object-fit: contain;
+  }
+
+  span {
+    line-height: 1rem;
+  }
+}
+
+.details {
   flex: 1;
 }
