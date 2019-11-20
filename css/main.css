@@ -7702,12 +7702,16 @@ classes are separated with "_" for differentiation
   flex: 2;
   height: calc(90vh - 100px); }
 
+.main_right {
+  flex: 2;
+  height: 100vh; }
+
 .space_images {
   flex-basis: 6rem;
   flex-shrink: 0; }
 
 #carousel_id {
-  height: calc(100% - 9rem); }
+  height: calc(100% - 5rem); }
 
 .carousel-indicators {
   top: -5rem; }
@@ -7751,16 +7755,22 @@ classes are separated with "_" for differentiation
 
 @media screen and (min-width: 768px) {
   #carousel_id {
-    height: calc(100% - 5rem); } }
-@media screen and (min-width: 1024px) {
-  .main {
-    flex: 3;
-    height: calc(90vh - 40px); }
+    height: calc(100% - 5rem); }
 
-  #carousel_id {
-    height: calc(100% - 9rem); } }
+  #carousel_id2 {
+    height: calc(100% - 0rem); }
+
+  .main_right {
+    flex: 2;
+    height: calc(90vh - 100px); } }
+@media screen and (min-width: 1024px) {
+  .main,
+  .main_right {
+    flex: 3;
+    height: calc(90vh - 40px); } }
 @media screen and (min-width: 1400px) {
-  .main {
+  .main,
+  .main_right {
     flex: 3; } }
 .center {
   flex: 2; }
@@ -7770,9 +7780,6 @@ classes are separated with "_" for differentiation
                                     Main Section - Right
 =========================================================================
 */
-.right {
-  overflow-y: hidden; }
-
 .upper_card .img_container {
   height: 5rem;
   width: 5rem; }
@@ -7781,6 +7788,13 @@ classes are separated with "_" for differentiation
 .upper_card span {
   line-height: 1rem; }
 
+.the_image {
+  background: url("https://images.unsplash.com/photo-1568441303064-f0a709a84e49?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60") top no-repeat;
+  background-size: cover; }
+
+@media screen and (min-width: 1024px) {
+  .right {
+    overflow-y: scroll; } }
 /*
 =========================================================================
                                     Chat Menu
@@ -7790,9 +7804,6 @@ classes are separated with "_" for differentiation
   flex: 2;
   height: calc(90vh - 100px); }
 
-@media screen and (min-width: 1400px) {
-  .main_chat {
-    flex: 3; } }
 .details_chat {
   flex: 2; }
 
@@ -7807,11 +7818,14 @@ classes are separated with "_" for differentiation
 .messages_profile .contain {
   object-fit: contain; }
 
-.scroll {
+.scroll_always {
   overflow-y: scroll; }
-  .scroll a:focus {
+  .scroll_always a:focus {
     background-color: #4e50b8; }
 
+@media screen and (min-width: 1400px) {
+  .main_chat {
+    flex: 3; } }
 /*
 =========================================================================
                                     Chat Details

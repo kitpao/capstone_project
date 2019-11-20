@@ -173,13 +173,18 @@ $white: #fff;
   height: calc(90vh - 100px);
 }
 
+.main_right {
+  flex: 2;
+  height: 100vh;
+}
+
 .space_images {
   flex-basis: 6rem;
   flex-shrink: 0;
 }
 
 #carousel_id {
-  height: calc(100% - 9rem);
+  height: calc(100% - 5rem);
 }
 
 .carousel-indicators {
@@ -240,21 +245,27 @@ $white: #fff;
   #carousel_id {
     height: calc(100% - 5rem);
   }
+  #carousel_id2 {
+    height: calc(100% - 0rem);
+  }
+
+  .main_right {
+    flex: 2;
+    height: calc(90vh - 100px);
+  }
 }
 
 @media screen and (min-width: 1024px) {
-  .main {
+  .main,
+  .main_right {
     flex: 3;
     height: calc(90vh - 40px);
-  }
-
-  #carousel_id {
-    height: calc(100% - 9rem);
   }
 }
 
 @media screen and (min-width: 1400px) {
-  .main {
+  .main,
+  .main_right {
     flex: 3;
   }
 }
@@ -268,10 +279,6 @@ $white: #fff;
                                     Main Section - Right
 =========================================================================
 */
-
-.right {
-  overflow-y: hidden;
-}
 
 .upper_card {
 
@@ -288,9 +295,18 @@ $white: #fff;
   }
 }
 
-.details {
-
+.the_image {
+  background: url("https://images.unsplash.com/photo-1568441303064-f0a709a84e49?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60") top no-repeat;
+  background-size: cover;
 }
+
+@media screen and (min-width: 1024px) {
+  .right {
+    overflow-y: scroll;
+  }
+}
+
+
 
 /*
 =========================================================================
@@ -301,12 +317,6 @@ $white: #fff;
 .main_chat {
   flex: 2;
   height: calc(90vh - 100px);
-}
-
-@media screen and (min-width: 1400px) {
-  .main_chat {
-    flex: 3;
-  }
 }
 
 .details_chat {
@@ -323,6 +333,7 @@ $white: #fff;
     height: 3.5rem;
     width: 3.5rem;
   }
+
   img {
     object-fit: cover;
   }
@@ -332,11 +343,17 @@ $white: #fff;
   }
 }
 
-.scroll {
+.scroll_always {
   overflow-y: scroll;
 
   a:focus {
     background-color: #4e50b8;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .main_chat {
+    flex: 3;
   }
 }
 
