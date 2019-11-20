@@ -7709,7 +7709,7 @@ classes are separated with "_" for differentiation
   flex-shrink: 0; }
 
 #carousel_id {
-  height: calc(100% - 5rem); }
+  height: calc(100% - 9rem); }
 
 .carousel-indicators {
   top: -5rem; }
