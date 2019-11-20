@@ -12,6 +12,7 @@ $white: #fff;
 
 body {
   background: linear-gradient(to bottom, $white 20%, $light);
+  height: 100vh;
 }
 
 .all_height {
@@ -89,6 +90,17 @@ body {
   }
 }
 
+.upper_profile {
+
+  .img_container {
+    height: 4rem;
+    width: 4rem;
+  }
+  img {
+    object-fit: cover;
+  }
+}
+
 .down_profile {
   button {
     flex-grow: 1;
@@ -112,7 +124,7 @@ body {
 
 /*
 =========================================================================
-                                    Main Section
+                                    Main Section-Center
 =========================================================================
 */
 
@@ -126,8 +138,16 @@ body {
   }
 }
 
+.center {
+  flex: 2;
+}
+
 /*
 =========================================================================
-                                    Right Section
+                                    Main Section - Right
 =========================================================================
 */
+
+.right {
+  flex: 1;
+}

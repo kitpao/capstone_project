@@ -7599,7 +7599,8 @@ Note: bootstrap original classes are separated with "-" while my own
 classes are separated with "_" for differentiation
 */
 body {
-  background: linear-gradient(to bottom, #fff 20%, #f9f9f9); }
+  background: linear-gradient(to bottom, #fff 20%, #f9f9f9);
+  height: 100vh; }
 
 .all_height {
   height: 100%; }
@@ -7648,6 +7649,12 @@ body {
     top: 0.2rem;
     left: 0; }
 
+.upper_profile .img_container {
+  height: 4rem;
+  width: 4rem; }
+.upper_profile img {
+  object-fit: cover; }
+
 .down_profile button {
   flex-grow: 1; }
 
@@ -7661,7 +7668,7 @@ body {
 
 /*
 =========================================================================
-                                    Main Section
+                                    Main Section-Center
 =========================================================================
 */
 .main {
@@ -7670,10 +7677,15 @@ body {
 @media screen and (min-width: 1400px) {
   .main {
     flex: 3; } }
+.center {
+  flex: 2; }
+
 /*
 =========================================================================
-                                    Right Section
+                                    Main Section - Right
 =========================================================================
 */
+.right {
+  flex: 1; }
 
 /*# sourceMappingURL=main.css.map */
