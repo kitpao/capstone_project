@@ -43,7 +43,6 @@ $white: #fff;
 }
 
 @media screen and (min-width: 768px) {
-
   .body {
     background: $light;
   }
@@ -54,7 +53,6 @@ $white: #fff;
 }
 
 @media screen and (min-width: 1024px) {
-
   .bottom_hr {
     border-bottom: $light 3px solid;
   }
@@ -127,11 +125,11 @@ $white: #fff;
 }
 
 .upper_profile {
-
   .img_container {
     height: 4rem;
     width: 4rem;
   }
+
   img {
     object-fit: cover;
   }
@@ -231,7 +229,7 @@ $white: #fff;
 .carousel-item {
   .fix_height {
     object-fit: cover;
-    object-position:center center;
+    object-position: center center;
   }
 }
 
@@ -244,9 +242,6 @@ $white: #fff;
 @media screen and (min-width: 768px) {
   #carousel_id {
     height: calc(100% - 5rem);
-  }
-  #carousel_id2 {
-    height: calc(100% - 0rem);
   }
 
   .main_right {
@@ -281,11 +276,11 @@ $white: #fff;
 */
 
 .upper_card {
-
   .img_container {
     height: 5rem;
     width: 5rem;
   }
+
   img {
     object-fit: contain;
   }
@@ -305,8 +300,6 @@ $white: #fff;
     overflow-y: scroll;
   }
 }
-
-
 
 /*
 =========================================================================
@@ -328,7 +321,6 @@ $white: #fff;
 }
 
 .messages_profile {
-
   .img_container {
     height: 3.5rem;
     width: 3.5rem;
@@ -364,10 +356,10 @@ $white: #fff;
 */
 
 .bottom_hr_always {
-
   .fa-long-arrow-alt-left {
     font-size: 2rem;
   }
+
   .fa-circle {
     font-size: 0.4rem;
   }

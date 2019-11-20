@@ -7757,9 +7757,6 @@ classes are separated with "_" for differentiation
   #carousel_id {
     height: calc(100% - 5rem); }
 
-  #carousel_id2 {
-    height: calc(100% - 0rem); }
-
   .main_right {
     flex: 2;
     height: calc(90vh - 100px); } }
