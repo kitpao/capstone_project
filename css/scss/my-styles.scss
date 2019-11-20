@@ -42,7 +42,8 @@ $white: #fff;
   font-size: 0.4rem;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
+
   .body {
     background: $light;
   }
@@ -50,6 +51,9 @@ $white: #fff;
   .shadow-lg-small {
     box-shadow: -3px 3px 22px -5px rgba(200, 200, 200, 0.75);
   }
+}
+
+@media screen and (min-width: 1024px) {
 
   .bottom_hr {
     border-bottom: $light 3px solid;
@@ -170,12 +174,12 @@ $white: #fff;
 }
 
 .space_images {
-  flex-basis: 5.5rem;
+  flex-basis: 6rem;
   flex-shrink: 0;
 }
 
 #carousel_id {
-  height: calc(100% - 5rem);
+  height: calc(100% - 9rem);
 }
 
 .carousel-indicators {
@@ -226,11 +230,26 @@ $white: #fff;
   }
 }
 
+.info {
+  width: 80%;
+  left: 10%;
+  bottom: 8rem;
+}
+
+@media screen and (min-width: 768px) {
+  #carousel_id {
+    height: calc(100% - 5rem);
+  }
+}
 
 @media screen and (min-width: 1024px) {
   .main {
     flex: 3;
     height: calc(90vh - 40px);
+  }
+
+  #carousel_id {
+    height: calc(100% - 9rem);
   }
 }
 
@@ -249,6 +268,10 @@ $white: #fff;
                                     Main Section - Right
 =========================================================================
 */
+
+.right {
+  overflow-y: hidden;
+}
 
 .upper_card {
 
