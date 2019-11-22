@@ -7826,6 +7826,9 @@ classes are separated with "_" for differentiation
                                     Chat Details
 =========================================================================
 */
+.chat_section {
+  flex: 2; }
+
 .bottom_hr_always .bottom_hr_always {
   border-bottom: #f9f9f9 3px solid; }
 .bottom_hr_always .fa-long-arrow-alt-left {

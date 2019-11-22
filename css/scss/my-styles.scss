@@ -351,6 +351,10 @@ $white: #fff;
 =========================================================================
 */
 
+.chat_section {
+  flex: 2;
+}
+
 .bottom_hr_always {
   .bottom_hr_always {
     border-bottom: $light 3px solid;
