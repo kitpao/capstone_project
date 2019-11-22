@@ -7634,7 +7634,7 @@ classes are separated with "_" for differentiation
   .body {
     background: #f9f9f9; }
 
-  .shadow-lg-small {
+  .shadow_lg_small {
     box-shadow: -3px 3px 22px -5px rgba(200, 200, 200, 0.75); } }
 @media screen and (min-width: 1024px) {
   .bottom_hr {
@@ -7871,6 +7871,9 @@ classes are separated with "_" for differentiation
   background: url("https://images.unsplash.com/photo-1568441303064-f0a709a84e49?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60") top no-repeat;
   background-size: cover; }
 
+.row_to_col_lg {
+  display: flex; }
+
 @media screen and (min-width: 768px) {
   .right {
     flex: 1;
@@ -7893,6 +7896,9 @@ classes are separated with "_" for differentiation
 
   .person_page {
     display: flex;
+    flex-direction: column; }
+
+  .row_to_col_lg {
     flex-direction: column; } }
 /*
 =========================================================================
