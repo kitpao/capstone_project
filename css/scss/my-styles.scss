@@ -42,6 +42,15 @@ $white: #fff;
   font-size: 0.4rem;
 }
 
+.flex_1 {
+  flex: 1;
+}
+
+.flex_1_all {
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
 @media screen and (min-width: 768px) {
   .body {
     background: $light;
@@ -62,24 +71,31 @@ $white: #fff;
   }
 }
 
-.flex_1 {
-  flex: 1;
-}
-
-.flex_1_all {
-  flex-grow: 1;
-  flex-shrink: 1;
-}
-
 /*
 =========================================================================
                                     NAVBAR Section
 =========================================================================
 */
 
+.nav_details {
+  display: none;
+}
+
+.location_div {
+  display: none;
+}
+
 .navbar-brand {
   img {
     height: 2.5rem;
+  }
+}
+
+.icons {
+  display: none;
+
+  .fa-user-circle {
+    font-size: 1.5rem;
   }
 }
 
@@ -96,11 +112,26 @@ $white: #fff;
   .location {
     font-size: 0.9rem;
   }
+}
+
+@media screen and (min-width: 768px) {
+  .nav_details {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hamburguer_link,
+  .notification_link {
+    display: none;
+  }
+
+  .location_div {
+    display: block;
+  }
 
   .icons {
-    .fa-user-circle {
-      font-size: 1.5rem;
-    }
+    display: flex;
   }
 }
 
@@ -109,6 +140,11 @@ $white: #fff;
                                     Left Section
 =========================================================================
 */
+
+.aside {
+  flex: 1;
+  display: none;
+}
 
 .over-container {
   width: 1rem;
@@ -142,6 +178,17 @@ $white: #fff;
 }
 
 .footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.footer_details {
+  display: none;
+}
+
+.footer,
+.footer_details {
   height: 3.2rem;
 
   .fas,
@@ -153,6 +200,26 @@ $white: #fff;
     .fas {
       font-size: 2rem;
     }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer_details {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .aside {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer,
+  .footer_details {
+    display: none;
   }
 }
 
@@ -170,6 +237,14 @@ $white: #fff;
 .main_right {
   flex: 2;
   height: 100vh;
+}
+
+.center {
+  flex: 2;
+}
+
+.center_details {
+  display: none;
 }
 
 .space_images {
@@ -218,8 +293,7 @@ $white: #fff;
 }
 
 .carousel-caption {
-  position: absolute;
-  bottom: 1rem;
+  display: none;
 }
 
 .carousel-item {
@@ -230,19 +304,42 @@ $white: #fff;
 }
 
 .info {
+  display: flex;
   width: 80%;
   left: 10%;
   bottom: 8rem;
 }
 
 @media screen and (min-width: 768px) {
+  .center_details {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
   #carousel_id {
     height: calc(100% - 5rem);
+  }
+
+  .carousel-caption {
+    position: absolute;
+    bottom: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .space_images {
+    display: none;
   }
 
   .main_right {
     flex: 2;
     height: calc(90vh - 100px);
+  }
+
+  .info {
+    display: none;
   }
 }
 
@@ -261,15 +358,25 @@ $white: #fff;
   }
 }
 
-.center {
-  flex: 2;
-}
-
 /*
 =========================================================================
                                     Main Section - Right
 =========================================================================
 */
+
+.right,
+.big_card,
+.person_location,
+.location_button,
+.person_page {
+  display: none;
+}
+
+.right_right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
 
 .upper_card {
   .img_container {
@@ -291,9 +398,36 @@ $white: #fff;
   background-size: cover;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
   .right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .right,
+  .right_right {
     overflow-y: scroll;
+  }
+
+  .the_image {
+    display: none;
+  }
+
+  .person_location {
+    display: inline;
+  }
+
+  .big_card,
+  .location_button {
+    display: block;
+  }
+
+  .person_page {
+    display: flex;
+    flex-direction: column;
   }
 }
 
@@ -308,8 +442,8 @@ $white: #fff;
   height: calc(90vh - 100px);
 }
 
-.details_chat {
-  flex: 2;
+.details_chats {
+  display: none;
 }
 
 .form-control {
@@ -339,17 +473,31 @@ $white: #fff;
   }
 }
 
+@media screen and (min-width: 768px) {
+  .details_chats {
+    flex: 2;
+    display: flex;
+  }
+}
+
 @media screen and (min-width: 1400px) {
   .main_chat {
     flex: 3;
   }
 }
 
+
+
 /*
 =========================================================================
                                     Chat Details
 =========================================================================
 */
+
+.aside_chatbox,
+.bubble_pic {
+  display: none;
+}
 
 .chat_section {
   flex: 2;
@@ -397,4 +545,18 @@ $white: #fff;
 
 .footer_chat {
   height: 4.8rem;
+}
+
+@media screen and (min-width: 768px) {
+  .bubble_pic {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .aside_chatbox {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
 }

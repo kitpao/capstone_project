@@ -13,7 +13,7 @@
   </head>
 
   <body class="body_chat d-flex">
-    <div class="flex_1 mr-1 all_height bg-white rounded-left flex-column d-none d-lg-flex">
+    <aside class="aside_chatbox mr-1 all_height bg-white rounded-left">
       <form class="container-fluid py-3 d-flex align-items-center all_width justify-content-between bottom_hr">
         <i class="fa fa-search text-dark"></i>
         <input class="form-control border-0" type="text" placeholder="Search by users">
@@ -236,22 +236,20 @@
           <i class="fas fa-bookmark text-dark"></i>
         </button>
       </div>
-    </div>
-    <div class="chat_section d-flex flex-column">
-      <header>
-        <nav class="navbar navbar-light bg-white px-4 py-3 bottom_hr_always">
-          <a class="text-info d-block" href="chat_menu.html">
-            <i class="fas fa-long-arrow-alt-left"></i>
-          </a>
-          <div class="d-block">
-            <span class="text-info font-weight-bold d-flex align-items-center">Claudia Sinclair<i class="fa fa-circle text-success text_xsm pl-1"></i></span>
-          </div>
-          <a class ="text-info d-block" href="#">
-            <i class="fas fa-phone"></i>
-          </a>
-        </nav>
-      </header>
-      <main class="main_internalchat py-2 d-flex px-3 flex_1 all_height d-flex flex-column align-items-start all_width scroll_always">
+    </aside>
+    <main class="chat_section d-flex flex-column">
+      <nav class="navbar navbar-light bg-white px-4 py-3 bottom_hr_always">
+        <a class="text-info d-block" href="chat_menu.html">
+          <i class="fas fa-long-arrow-alt-left"></i>
+        </a>
+        <div class="d-block">
+          <span class="text-info font-weight-bold d-flex align-items-center">Claudia Sinclair<i class="fa fa-circle text-success text_xsm pl-1"></i></span>
+        </div>
+        <a class ="text-info d-block" href="#">
+          <i class="fas fa-phone"></i>
+        </a>
+      </nav>
+      <div class="main_internalchat py-2 d-flex px-3 flex_1 all_height d-flex flex-column align-items-start all_width scroll_always">
         <div class="chat_bubble align-self-end d-flex pb-3">
           <div class=" d-flex flex-column align-items-end">
             <div class="flex_1 align-items-center messages_profile chat_bubble_me py-1 px-3 rounded-lg">
@@ -260,12 +258,12 @@
             <span class="text-dark text_sm font-weight-bold">1:16 PM
             </span>
           </div>
-          <div class="img_container d-none d-md-block mx-4">
+          <div class="img_container bubble_pic mx-4">
             <img class="rounded-circle all_height all_width" src="images/profile.jpg" alt="my profile">
           </div>
         </div>
         <div class="chat_bubble d-flex pb-3">
-          <div class="img_container d-none d-md-block mx-4">
+          <div class="img_container bubble_pic mx-4">
             <img class="rounded-circle all_height all_width" src="https://images.unsplash.com/photo-1563757802008-2e3f8dbb702c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="my profile">
           </div>
           <div class=" d-flex flex-column align-items-end">
@@ -276,7 +274,7 @@
           </div>
         </div>
         <div class="chat_bubble d-flex pb-3">
-          <div class="img_container d-none d-md-block mx-4">
+          <div class="img_container bubble_pic mx-4">
             <img class="rounded-circle all_height all_width" src="https://images.unsplash.com/photo-1563757802008-2e3f8dbb702c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="my profile">
           </div>
           <div class=" d-flex flex-column align-items-end">
@@ -294,12 +292,12 @@
             <span class="text-dark text_sm font-weight-bold">1:16 PM
             </span>
           </div>
-          <div class="img_container d-none d-md-block mx-4">
+          <div class="img_container bubble_pic mx-4">
             <img class="rounded-circle all_height all_width" src="images/profile.jpg" alt="my profile">
           </div>
         </div>
         <div class="chat_bubble d-flex pb-3">
-          <div class="img_container d-none d-md-block mx-4">
+          <div class="img_container bubble_pic mx-4">
             <img class="rounded-circle all_height all_width" src="https://images.unsplash.com/photo-1563757802008-2e3f8dbb702c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="my profile">
           </div>
           <div class=" d-flex flex-column align-items-end">
@@ -317,12 +315,12 @@
             <span class="text-dark text_sm font-weight-bold">1:16 PM
             </span>
           </div>
-          <div class="img_container d-none d-md-block mx-4">
+          <div class="img_container bubble_pic mx-4">
             <img class="rounded-circle all_height all_width" src="images/profile.jpg" alt="my profile">
           </div>
         </div>
         <div class="chat_bubble d-flex pb-3">
-          <div class="img_container d-none d-md-block mx-4">
+          <div class="img_container bubble_pic mx-4">
             <img class="rounded-circle all_height all_width" src="https://images.unsplash.com/photo-1563757802008-2e3f8dbb702c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="my profile">
           </div>
           <div class=" d-flex flex-column align-items-end">
@@ -333,7 +331,7 @@
           </div>
         </div>
         <div class="chat_bubble d-flex pb-3">
-          <div class="img_container d-none d-md-block mx-4">
+          <div class="img_container bubble_pic mx-4">
             <img class="rounded-circle all_height all_width" src="https://images.unsplash.com/photo-1563757802008-2e3f8dbb702c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="my profile">
           </div>
           <div class=" d-flex flex-column align-items-end">
@@ -351,12 +349,12 @@
             <span class="text-dark text_sm font-weight-bold">1:16 PM
             </span>
           </div>
-          <div class="img_container d-none d-md-block mx-4">
+          <div class="img_container bubble_pic mx-4">
             <img class="rounded-circle all_height all_width" src="images/profile.jpg" alt="my profile">
           </div>
         </div>
         <div class="chat_bubble d-flex pb-3">
-          <div class="img_container d-none d-md-block mx-4">
+          <div class="img_container bubble_pic mx-4">
             <img class="rounded-circle all_height all_width" src="https://images.unsplash.com/photo-1563757802008-2e3f8dbb702c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="my profile">
           </div>
           <div class=" d-flex flex-column align-items-end">
@@ -366,7 +364,7 @@
             <span class="text-dark text_sm font-weight-bold">1:16 PM</span>
           </div>
         </div>
-      </main>
+      </div>
 
       <footer class="footer_chat d-flex align-items-end shadow-sm all_width bg-white">
         <form class="container-fluid py-3 d-flex align-items-center all_width justify-content-between bottom_hr">
@@ -375,7 +373,7 @@
           <button class="btn btn-primary shadow" type="submit" name="button"><i class="fas fa-arrow-up"></i></button>
         </form>
       </footer>
-    </div>
+    </main>
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
