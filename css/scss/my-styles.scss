@@ -16,6 +16,14 @@ $white: #fff;
   font-family: 'Open Sans', sans-serif;
 }
 
+.body_default {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+
+}
+
 .body_chat {
   background: #fcfcfc;
   height: 100vh;
@@ -77,15 +85,31 @@ $white: #fff;
 =========================================================================
 */
 
+.nav_main,
+.nav_details {
+  padding: 0 1.5rem;
+}
+
+.nav_chatpage {
+  padding: 1rem 1.5rem;
+}
+
 .nav_details {
   display: none;
 }
 
 .location_div {
   display: none;
+
+  .btn {
+    padding: 0.25rem 0.5rem;
+    margin-right: 0.5rem;
+  }
 }
 
 .navbar-brand {
+  margin: 0 auto;
+
   img {
     height: 2.5rem;
   }
@@ -96,7 +120,13 @@ $white: #fff;
 
   .fa-user-circle {
     font-size: 1.5rem;
+    padding-left: 1.5rem;
   }
+
+  .fa-bell {
+    padding: 0 1.5rem;
+  }
+
 }
 
 .navbar {
@@ -121,6 +151,15 @@ $white: #fff;
 }
 
 @media screen and (min-width: 1024px) {
+  .nav_main,
+  .nav_details {
+    padding: 0 3rem;
+  }
+
+  .navbar-brand {
+    margin: 0 0;
+  }
+
   .hamburguer_link,
   .notification_link {
     display: none;
@@ -493,8 +532,6 @@ $white: #fff;
     flex: 3;
   }
 }
-
-
 
 /*
 =========================================================================

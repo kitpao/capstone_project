@@ -7603,6 +7603,12 @@ classes are separated with "_" for differentiation
   height: 100vh;
   font-family: 'Open Sans', sans-serif; }
 
+.body_default {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center; }
+
 .body_chat {
   background: #fcfcfc;
   height: 100vh;
@@ -7647,19 +7653,34 @@ classes are separated with "_" for differentiation
                                     NAVBAR Section
 =========================================================================
 */
+.nav_main,
+.nav_details {
+  padding: 0 1.5rem; }
+
+.nav_chatpage {
+  padding: 1rem 1.5rem; }
+
 .nav_details {
   display: none; }
 
 .location_div {
   display: none; }
+  .location_div .btn {
+    padding: 0.25rem 0.5rem;
+    margin-right: 0.5rem; }
 
-.navbar-brand img {
-  height: 2.5rem; }
+.navbar-brand {
+  margin: 0 auto; }
+  .navbar-brand img {
+    height: 2.5rem; }
 
 .icons {
   display: none; }
   .icons .fa-user-circle {
-    font-size: 1.5rem; }
+    font-size: 1.5rem;
+    padding-left: 1.5rem; }
+  .icons .fa-bell {
+    padding: 0 1.5rem; }
 
 .navbar .fa,
 .navbar .far {
@@ -7673,6 +7694,13 @@ classes are separated with "_" for differentiation
   .nav_details {
     display: flex; } }
 @media screen and (min-width: 1024px) {
+  .nav_main,
+  .nav_details {
+    padding: 0 3rem; }
+
+  .navbar-brand {
+    margin: 0 0; }
+
   .hamburguer_link,
   .notification_link {
     display: none; }
