@@ -7715,6 +7715,16 @@ classes are separated with "_" for differentiation
                                     Left Section
 =========================================================================
 */
+.content {
+  display: flex;
+  padding: 1.5rem;
+  margin-top: 0.5rem; }
+
+.content_details {
+  display: flex;
+  padding: 0;
+  margin-top: 0; }
+
 .aside {
   flex: 1;
   display: none; }
@@ -7737,6 +7747,9 @@ classes are separated with "_" for differentiation
 .down_profile button {
   flex-grow: 1; }
 
+.badge {
+  padding: 0.5rem 1rem; }
+
 .footer {
   display: flex;
   align-items: flex-end;
@@ -7758,11 +7771,19 @@ classes are separated with "_" for differentiation
     font-size: 2rem; }
 
 @media screen and (min-width: 768px) {
+  .content_details {
+    padding: 1.5rem;
+    margin-top: 0.5rem; }
+
   .footer_details {
     display: flex;
     align-items: flex-end;
     justify-content: space-around; } }
 @media screen and (min-width: 1024px) {
+  .content,
+  .content_details {
+    padding: 1.5rem 3rem; }
+
   .aside {
     display: flex;
     flex-direction: column; }
@@ -7922,6 +7943,9 @@ classes are separated with "_" for differentiation
   .location_button {
     display: block; }
 
+  .location_button {
+    padding: 0.5rem 1rem; }
+
   .person_page {
     display: flex;
     flex-direction: column; }
@@ -7943,18 +7967,25 @@ classes are separated with "_" for differentiation
 .form-control {
   width: auto; }
 
-.messages_profile .img_container {
-  height: 3.5rem;
-  width: 3.5rem; }
-.messages_profile img {
-  object-fit: cover; }
-.messages_profile .contain {
-  object-fit: contain; }
+.messages_profile {
+  flex: 1;
+  padding: 0.25rem 1rem; }
+  .messages_profile .img_container {
+    height: 3.5rem;
+    width: 3.5rem; }
+  .messages_profile img {
+    object-fit: cover; }
+  .messages_profile .contain {
+    object-fit: contain; }
 
 .scroll_always {
   overflow-y: scroll; }
   .scroll_always a:focus {
     background-color: #4e50b8; }
+
+.top_hr .btn {
+  flex: 1;
+  padding: 1rem; }
 
 @media screen and (min-width: 768px) {
   .details_chats {
@@ -7998,7 +8029,12 @@ classes are separated with "_" for differentiation
   background-color: #f3f3f3; }
 
 .main_internalchat {
-  height: calc(90vh - 75px); }
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: calc(90vh - 75px);
+  padding: 0.5rem 1rem;
+  align-items: flex-start; }
 
 .footer_chat {
   height: 4.8rem; }

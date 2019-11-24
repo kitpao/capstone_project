@@ -21,7 +21,6 @@ $white: #fff;
   height: 100vh;
   align-items: center;
   justify-content: center;
-
 }
 
 .body_chat {
@@ -126,7 +125,6 @@ $white: #fff;
   .fa-bell {
     padding: 0 1.5rem;
   }
-
 }
 
 .navbar {
@@ -180,6 +178,18 @@ $white: #fff;
 =========================================================================
 */
 
+.content {
+  display: flex;
+  padding: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.content_details {
+  display: flex;
+  padding: 0;
+  margin-top: 0;
+}
+
 .aside {
   flex: 1;
   display: none;
@@ -216,6 +226,10 @@ $white: #fff;
   }
 }
 
+.badge {
+  padding: 0.5rem 1rem;
+}
+
 .footer {
   display: flex;
   align-items: flex-end;
@@ -243,6 +257,11 @@ $white: #fff;
 }
 
 @media screen and (min-width: 768px) {
+  .content_details {
+    padding: 1.5rem;
+    margin-top: 0.5rem;
+  }
+
   .footer_details {
     display: flex;
     align-items: flex-end;
@@ -251,6 +270,11 @@ $white: #fff;
 }
 
 @media screen and (min-width: 1024px) {
+  .content,
+  .content_details{
+    padding: 1.5rem 3rem;
+  }
+
   .aside {
     display: flex;
     flex-direction: column;
@@ -468,6 +492,10 @@ $white: #fff;
     display: block;
   }
 
+  .location_button {
+    padding: 0.5rem 1rem;
+  }
+
   .person_page {
     display: flex;
     flex-direction: column;
@@ -498,6 +526,9 @@ $white: #fff;
 }
 
 .messages_profile {
+  flex: 1;
+  padding: 0.25rem 1rem;
+
   .img_container {
     height: 3.5rem;
     width: 3.5rem;
@@ -517,6 +548,13 @@ $white: #fff;
 
   a:focus {
     background-color: #4e50b8;
+  }
+}
+
+.top_hr {
+  .btn {
+    flex: 1;
+    padding: 1rem;
   }
 }
 
@@ -585,7 +623,12 @@ $white: #fff;
 }
 
 .main_internalchat {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
   height: calc(90vh - 75px);
+  padding: 0.5rem 1rem;
+  align-items: flex-start;
 }
 
 .footer_chat {
