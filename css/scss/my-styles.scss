@@ -17,8 +17,8 @@ $white: #fff;
 }
 
 .body_default {
-  display: flex;
   height: 100vh;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -47,15 +47,6 @@ $white: #fff;
 
 .text_xsm {
   font-size: 0.4rem;
-}
-
-.flex_1 {
-  flex: 1;
-}
-
-.flex_1_all {
-  flex-grow: 1;
-  flex-shrink: 1;
 }
 
 .pad_hor_none {
@@ -164,6 +155,78 @@ $white: #fff;
 
 .mar_left_normal {
   margin-left: 1rem;
+}
+
+.flex_1 {
+  flex: 1;
+}
+
+.flex_1_all {
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.myflex {
+  display: flex;
+}
+
+.myflex_column {
+  display: flex;
+  flex-direction: column;
+}
+
+.myflex_column_bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.myflex_column_right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.myflex_justify_center {
+  display: flex;
+  justify-content: center;
+}
+
+.myflex_justify_between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.myflex_justify_between_top {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.myflex_justify_between_center {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.myflex_left_center {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.myflex_align_center {
+  display: flex;
+  align-items: center;
+}
+
+.myflex_align_bottom {
+  display: flex;
+  align-items: flex-end;
+}
+
+.selfalign_end {
+  align-self: end;
 }
 
 @media screen and (min-width: 768px) {
@@ -376,6 +439,11 @@ $white: #fff;
   }
 }
 
+.myflex_column {
+  display: flex;
+  flex-direction: column;
+}
+
 @media screen and (min-width: 768px) {
   .content_details {
     padding: 1.5rem;
@@ -391,7 +459,7 @@ $white: #fff;
 
 @media screen and (min-width: 1024px) {
   .content,
-  .content_details{
+  .content_details {
     padding: 1.5rem 3rem;
   }
 
