@@ -204,13 +204,13 @@ $white: #fff;
 
 .myflex_justify_between_top {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: flex-start;
 }
 
 .myflex_justify_between_center {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
 }
 
