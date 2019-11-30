@@ -18,7 +18,7 @@ Specific design in:
 - typographies: font face (as Helvetica Neue is a paid font, you may use a similar one like Open Sans), size and weight
 - layout: composition and space between elements, for the 2 given screen sizes
 
-Project preview: **DON'T FORGET**
+Project preview: https://raw.githack.com/kitpao/capstone_project/master/index.html
 
 Concept design: https://www.behance.net/gallery/70285515/Swipex-This-application-for-dating
 
