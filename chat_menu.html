@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Swipex: Chat menu page</title>
+    <link rel="icon" href="images/icon.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+
+  <body class="body">
+    <header>
+      <nav class="nav_main navbar navbar-light bg-white shadow_lg_small">
+        <a class="text-info hamburguer_link" href="#">
+          <i class="fa fa-bars"></i>
+        </a>
+        <div class="location_div">
+          <button class="btn btn-light" type="button" name="button">
+            <i class="fas fa-map-marker-alt"></i>
+          </button>
+          <span class ="location text-dark">Location: </span><span class="location text-muted font-weight-bold border-bottom">London</span>
+          <i class="fas fa-angle-down text-dark"></i>
+        </div>
+        <h1 class="offscreen">Swipex: Chat menu page</h1>
+        <a class="navbar-brand" href="index.html">
+          <img class="" src="images/logo.png" alt="Swipex Logo">
+        </a>
+        <a class ="notification_link text-info" href="#">
+          <i class="far fa-bell"></i>
+        </a>
+        <div class="icons">
+          <a class="text-dark" href="#"><i class="far fa-list-alt"></i></a>
+          <a class="text-dark" href="#"><i class="far fa-bell border-right"></i></a>
+          <a class="text-dark" href="#"><i class="fas fa-user-circle border-left"></i></a>
+        </div>
+      </nav>
+    </header>
+    <div class="content container-fluid">
+      <aside class="aside mar_right_normal">
+        <h2 class="offscreen">Left menu</h2>
+        <div class="card border-0 all_width shadow_lg_small">
+          <div class="card-body myflex_column">
+            <div class="upper_profile myflex_align_center">
+              <div class="img_container">
+                <img class="rounded all_width all_height" src="images/profile.jpg" alt="profile pic">
+              </div>
+              <div class="myflex_column mar_left_normal">
+                <h6 class="card-title mar_bottom_xsmall font-weight-bold text-info">Vlad Ermakov</h6>
+                <span class="card-subtitle text-dark text_sm">Status: <a class="text-decoration-none border-bottom" href="#">Without premium</a> </span>
+              </div>
+              <a class="mar_left_auto" href="#">
+                <i class="fas fa-cog"></i>
+              </a>
+            </div>
+            <div class="down_profile myflex_align_center mar_top_normal">
+              <i class="far fa-heart text-secondary mar_right_small"></i>
+              <span class="mar_right_small text-info">257</span>
+              <button class="btn btn-primary myflex_justify_center" type="button" name="button">
+                <span class="over-container position-relative all_width mar_right_small">
+                  <i class="fas fa-certificate position-absolute"></i>
+                  <i class="fas fa-check position-absolute text-primary"></i>
+                </span>
+                <span class="font-weight-bold text_sm">Get Premium</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="mar_top_small pad_ver_large">
+          <div class="myflex_justify_between pad_bottom_large">
+            <div class="text-dark">
+              <i class="fas fa-braille mar_right_small"></i>
+              <span class="font-weight-bold">Begin Encounters</span>
+            </div>
+          </div>
+          <div class="myflex_justify_between pad_bottom_large">
+            <div class="text-dark">
+              <i class="fas fa-layer-group mar_left_xsmall mar_right_small"></i>
+              <span class="font-weight-bold">People Nearby</span>
+            </div>
+          </div>
+          <div class="myflex_justify_between pad_bottom_large">
+            <div class="text-dark">
+              <i class="far fa-play-circle mar_left_xsmall mar_right_small"></i>
+              <span class="font-weight-bold">Live Channels</span>
+            </div>
+            <span class="badge badge-pill badge-light text-dark">12</span>
+          </div>
+          <div class="myflex_justify_between pad_bottom_large">
+            <div class="text-dark">
+              <i class="far fa-comments mar_left_xsmall mar_right_small"></i>
+              <span class="font-weight-bold">Messages</span>
+            </div>
+            <span class="badge badge-secondary text-white">32</span>
+          </div>
+          <div class="myflex_justify_between pad_bottom_large">
+            <div class="text-dark">
+              <i class="far fa-star mar_left_xsmall mar_right_small"></i>
+              <span class="font-weight-bold">Featured Peoples</span>
+            </div>
+          </div>
+          <div class="myflex_justify_between pad_bottom_large">
+            <div class="text-dark">
+              <i class="fas fa-gift mar_left_small mar_right_small"></i>
+              <span class="font-weight-bold">Gifts</span>
+            </div>
+            <span class="badge badge-secondary text-white">04</span>
+          </div>
+          <div class="myflex_justify_between pad_bottom_large">
+            <div class="text-dark">
+              <i class="fas fa-chart-line mar_left_small mar_right_small"></i>
+              <span class="font-weight-bold">Rating of Popularity</span>
+            </div>
+          </div>
+          <div class="myflex_justify_between pad_bottom_large">
+            <div class="text-dark">
+              <i class="far fa-list-alt mar_left_small mar_right_small"></i>
+              <span class="font-weight-bold">Daily Tasks</span>
+            </div>
+          </div>
+        </div>
+      </aside>
+      <main class="main_chat container-fluid myflex pad_hor_none pad_left_normal_lg">
+        <h2 class="offscreen">Chat page</h2>
+        <div class="flex_1 .mar_right_xsmall all_height bg-white rounded-left myflex_column">
+          <h3 class="offscreen">Chat menu</h3>
+          <form class="container-fluid pad_ver_normal myflex_justify_between_center all_width bottom_hr">
+            <i class="fa fa-search text-dark"></i>
+            <input class="form-control border-0" type="text" placeholder="Search by users">
+            <button class="btn btn-primary shadow" type="submit" name="button"><i class="fas fa-pencil-alt"></i></button>
+          </form>
+          <div class="flex_1 scroll_always">
+            <a class="text-decoration-none bottom_hr d-block" href="details_chat.html">
+              <div class="container-fluid myflex_align_center messages_profile pad_ver_small">
+                <div class="img_container">
+                  <img class="rounded all_height all_width" src="https://images.unsplash.com/photo-1563757802008-2e3f8dbb702c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="profile 1">
+                </div>
+                <div class="flex_1 mar_left_normal">
+                  <div class="myflex_justify_between">
+                    <span class="text-info font-weight-bold text_sm myflex_align_center">Claudia Sinclair<i class="fa fa-circle text-success text_xsm pad_left_small"></i></span>
+                    <span class="text-dark font-weight-bold text_sm">15 min</span>
+                  </div>
+                  <div class="myflex_align_center">
+                    <i class="fas fa-check text-dark text_sm mar_right_small"></i>
+                    <span class="text-dark text_sm">Hello :) I will be pleased to...</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a class="text-decoration-none bottom_hr d-block" href="details_chat.html">
+              <div class="container-fluid myflex_align_center messages_profile pad_ver_small">
+                <div class="img_container">
+                  <img class="rounded all_height all_width" src="https://images.unsplash.com/photo-1563757802008-2e3f8dbb702c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="profile 1">
+                </div>
+                <div class="flex_1 mar_left_normal">
+                  <div class="myflex_justify_between">
+                    <span class="text-info font-weight-bold text_sm myflex_align_center">Claudia Sinclair<i class="fa fa-circle text-success text_xsm pad_left_small"></i></span>
+                    <span class="text-dark font-weight-bold text_sm">15 min</span>
+                  </div>
+                  <div class="myflex_align_center">
+                    <i class="fas fa-check text-dark text_sm mar_right_small"></i>
+                    <span class="text-dark text_sm">Hello :) I will be pleased to...</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a class="text-decoration-none bottom_hr d-block" href="details_chat.html">
+              <div class="container-fluid myflex_align_center messages_profile pad_ver_small">
+                <div class="img_container">
+                  <img class="rounded all_height all_width" src="https://images.unsplash.com/photo-1563757802008-2e3f8dbb702c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="profile 1">
+                </div>
+                <div class="flex_1 mar_left_normal">
+                  <div class="myflex_justify_between">
+                    <span class="text-info font-weight-bold text_sm myflex_align_center">Claudia Sinclair<i class="fa fa-circle text-success text_xsm pad_left_small"></i></span>
+                    <span class="text-dark font-weight-bold text_sm">15 min</span>
+                  </div>
+                  <div class="myflex_align_center">
+                    <i class="fas fa-check text-dark text_sm mar_right_small"></i>
+                    <span class="text-dark text_sm">Hello :) I will be pleased to...</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a class="text-decoration-none bottom_hr d-block" href="details_chat.html">
+              <div class="container-fluid myflex_align_center messages_profile pad_ver_small">
+                <div class="img_container">
+                  <img class="rounded all_height all_width" src="https://images.unsplash.com/photo-1563757802008-2e3f8dbb702c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="profile 1">
+                </div>
+                <div class="flex_1 mar_left_normal">
+                  <div class="myflex_justify_between">
+                    <span class="text-info font-weight-bold text_sm myflex_align_center">Claudia Sinclair<i class="fa fa-circle text-success text_xsm pad_left_small"></i></span>
+                    <span class="text-dark font-weight-bold text_sm">15 min</span>
+                  </div>
+                  <div class="myflex_align_center">
+                    <i class="fas fa-check text-dark text_sm mar_right_small"></i>
+                    <span class="text-dark text_sm">Hello :) I will be pleased to...</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a class="text-decoration-none bottom_hr d-block" href="details_chat.html">
+              <div class="container-fluid myflex_align_center messages_profile pad_ver_small">
+                <div class="img_container">
+                  <img class="rounded all_height all_width" src="https://images.unsplash.com/photo-1563757802008-2e3f8dbb702c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="profile 1">
+                </div>
+                <div class="flex_1 mar_left_normal">
+                  <div class="myflex_justify_between">
+                    <span class="text-info font-weight-bold text_sm myflex_align_center">Claudia Sinclair<i class="fa fa-circle text-success text_xsm pad_left_small"></i></span>
+                    <span class="text-dark font-weight-bold text_sm">15 min</span>
+                  </div>
+                  <div class="myflex_align_center">
+                    <i class="fas fa-check text-dark text_sm mar_right_small"></i>
+                    <span class="text-dark text_sm">Hello :) I will be pleased to...</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a class="text-decoration-none bottom_hr d-block" href="details_chat.html">
+              <div class="container-fluid myflex_align_center messages_profile pad_ver_small">
+                <div class="img_container">
+                  <img class="rounded all_height all_width" src="https://images.unsplash.com/photo-1563757802008-2e3f8dbb702c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="profile 1">
+                </div>
+                <div class="flex_1 mar_left_normal">
+                  <div class="myflex_justify_between">
+                    <span class="text-info font-weight-bold text_sm myflex_align_center">Claudia Sinclair<i class="fa fa-circle text-success text_xsm pad_left_small"></i></span>
+                    <span class="text-dark font-weight-bold text_sm">15 min</span>
+                  </div>
+                  <div class="myflex_align_center">
+                    <i class="fas fa-check text-dark text_sm mar_right_small"></i>
+                    <span class="text-dark text_sm">Hello :) I will be pleased to...</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a class="text-decoration-none bottom_hr d-block" href="details_chat.html">
+              <div class="container-fluid myflex_align_center messages_profile pad_ver_small">
+                <div class="img_container">
+                  <img class="rounded all_height all_width" src="https://images.unsplash.com/photo-1563757802008-2e3f8dbb702c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="profile 1">
+                </div>
+                <div class="flex_1 mar_left_normal">
+                  <div class="myflex_justify_between">
+                    <span class="text-info font-weight-bold text_sm myflex_align_center">Claudia Sinclair<i class="fa fa-circle text-success text_xsm pad_left_small"></i></span>
+                    <span class="text-dark font-weight-bold text_sm">15 min</span>
+                  </div>
+                  <div class="myflex_align_center">
+                    <i class="fas fa-check text-dark text_sm mar_right_small"></i>
+                    <span class="text-dark text_sm">Hello :) I will be pleased to...</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a class="text-decoration-none bottom_hr d-block" href="details_chat.html">
+              <div class="container-fluid myflex_align_center messages_profile pad_ver_small">
+                <div class="img_container">
+                  <img class="rounded all_height all_width" src="https://images.unsplash.com/photo-1563757802008-2e3f8dbb702c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="profile 1">
+                </div>
+                <div class="flex_1 mar_left_normal">
+                  <div class="myflex_justify_between">
+                    <span class="text-info font-weight-bold text_sm myflex_align_center">Claudia Sinclair<i class="fa fa-circle text-success text_xsm pad_left_small"></i></span>
+                    <span class="text-dark font-weight-bold text_sm">15 min</span>
+                  </div>
+                  <div class="myflex_align_center">
+                    <i class="fas fa-check text-dark text_sm mar_right_small"></i>
+                    <span class="text-dark text_sm">Hello :) I will be pleased to...</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a class="text-decoration-none bottom_hr d-block" href="details_chat.html">
+              <div class="container-fluid myflex_align_center messages_profile pad_ver_small">
+                <div class="img_container">
+                  <img class="rounded all_height all_width" src="https://images.unsplash.com/photo-1563757802008-2e3f8dbb702c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="profile 1">
+                </div>
+                <div class="flex_1 mar_left_normal">
+                  <div class="myflex_justify_between">
+                    <span class="text-info font-weight-bold text_sm myflex_align_center">Claudia Sinclair<i class="fa fa-circle text-success text_xsm pad_left_small"></i></span>
+                    <span class="text-dark font-weight-bold text_sm">15 min</span>
+                  </div>
+                  <div class="myflex_align_center">
+                    <i class="fas fa-check text-dark text_sm mar_right_small"></i>
+                    <span class="text-dark text_sm">Hello :) I will be pleased to...</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a class="text-decoration-none d-block" href="details_chat.html">
+              <div class="container-fluid myflex_align_center messages_profile pad_ver_small">
+                <div class="img_container">
+                  <img class="rounded all_height all_width" src="https://images.unsplash.com/photo-1563757802008-2e3f8dbb702c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="profile 1">
+                </div>
+                <div class="flex_1 mar_left_normal">
+                  <div class="myflex_justify_between">
+                    <span class="text-info font-weight-bold text_sm myflex_align_center">Claudia Sinclair<i class="fa fa-circle text-success text_xsm pad_left_small"></i></span>
+                    <span class="text-dark font-weight-bold text_sm">15 min</span>
+                  </div>
+                  <div class="myflex_align_center">
+                    <i class="fas fa-check text-dark text_sm mar_right_small"></i>
+                    <span class="text-dark text_sm">Hello :) I will be pleased to...</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="myflex top_hr">
+            <button class="btn btn-white btn-lg" type="button" name="button">
+              <i class="fas fa-layer-group text-dark"></i>
+            </button>
+            <button class="btn btn-light rounded-0 btn-lg" type="button" name="button">
+              <i class="fas fa-envelope-open-text text-primary"></i>
+            </button>
+            <button class="btn btn-white btn-lg" type="button" name="button">
+              <i class="fas fa-bookmark text-dark"></i>
+            </button>
+          </div>
+        </div>
+        <div class="details_chats all_height">
+          <h3 class="offscreen">Default chat</h3>
+          <iframe class="all_height all_width border-0 rounded-right" src="default_chat.html" name="iframe_a"></iframe>
+        </div>
+
+      </main>
+
+    </div>
+
+    <footer class="footer shadow-sm all_width fixed-bottom bg-white pad_bottom_small">
+      <a href="#"><i class="fas fa-search text-dark"></i></a>
+      <a href="#"><i class="fas fa-layer-group text-dark"></i></a>
+      <a href="#"><i class="fas fa-braille text-dark"></i></a>
+      <button class="btn btn-primary position-absolute pad_ver_normal" type="button" name="button"><i class="fas fa-braille"></i></button>
+      <a href="#"><i class="far fa-comments text-secondary"></i></a>
+      <a href="#"><i class="fas fa-user text-dark"></i></a>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -22,6 +22,7 @@ Project preview: **DON'T FORGET**
 
 Concept design: https://www.behance.net/gallery/70285515/Swipex-This-application-for-dating
 
+<a href="https://www.loom.com/share/ec5c3cea6fe34021aed50538b66cf5de"> <p>Here is a video of the project:</p><img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/ec5c3cea6fe34021aed50538b66cf5de-with-play.gif"></a>
 ___________________________
 
 This project was made by Kitzia Vidal, some of my repositories are available for you to check:  
