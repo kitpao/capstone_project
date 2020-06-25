@@ -23,13 +23,6 @@ Project preview: https://raw.githack.com/kitpao/capstone_project/master/index.ht
 Concept design: https://www.behance.net/gallery/70285515/Swipex-This-application-for-dating
 
 <a href="https://www.loom.com/share/ec5c3cea6fe34021aed50538b66cf5de"> <p>Here is a video of the project:</p><img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/ec5c3cea6fe34021aed50538b66cf5de-with-play.gif"></a>
-___________________________
-
-This project was made by Kitzia Vidal, some of my repositories are available for you to check:  
-
-
-Kitzia Vidal:  
-https://github.com/kitpao?tab=repositories 
 
 ___________________________
 Skills to use and requirements: 
@@ -47,3 +40,28 @@ Skills to use and requirements:
 * Ability to perform tasks and complete projects with minimal supervision.
 
 MUST: use of linters, follow CSS best practices, use of CSS Reset, use W3c validation services, use Github flow guidelines, make good commit messages, double check devices compatibility.
+
+## Contact
+<p align="center">
+
+  Project Link: [https://github.com/kitpao/Responsive-Design](https://github.com/kitpao/Responsive-Design)
+
+<p align="center">
+
+  Kitzia Paola Vidal Marroquin - [Github user: kitpao](https://github.com/kitpao)
+</p>
+<p align="center" style="display: flex; justify-content: center; align-items: center;">
+    <a target="_blank" href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=kitpao91@gmail.com">
+      kitpao91@gmail.com
+    </a> &nbsp; |
+    <a target="_blank" href="https://github.com/kitpao/Personal_Projects">
+        Portfolio
+    </a> &nbsp; |
+    <a target="_blank" href="https://www.linkedin.com/in/kitzia-paola-vidal/">
+      LinkedIn
+    </a> &nbsp; |
+    <a target="_blank" href="https://twitter.com/Kitpao1">
+      Twitter
+    </a>
+</p>
+
